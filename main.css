@@ -1,0 +1,119 @@
+nav {
+	position: fixed;
+	top: 0;
+	background-color: lightgrey;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+nav>h1 {
+	margin-left: 15px;
+}
+
+nav ul {
+	position: absolute;
+	right: 15px;
+	top: -18px;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+nav a {
+	color: purple;
+	font-weight: normal;
+}
+
+main {
+	position: relative;
+	top: 80px;
+	width: 100%;
+	margin-left: 50px;
+	font-family: sans-serif;
+}
+
+.searchbar {
+	width: 50%;
+	height: 20px;
+}
+
+img {
+	margin-left: 5px;
+	border: 1px lightgrey solid;
+	position: absolute;
+	height: 24px;
+	width: 24px;
+}
+
+.resultsctrl>ul {
+	clear: left;
+	font-size: 0px;
+	margin-top: 30px;
+	margin-left: -40px;
+	/*why is this line necessary above?*/
+}
+
+section.resultsctrl li {
+	font-size: 18px;
+	padding: 10px;
+	border: 1px lightgrey solid;
+	display: inline-block;
+/*	why does this force the list to have a margin on the left side?  I need to change this but would prefer not to do manually*/
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+.leftbox {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.rightbox {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+section.searchresults {
+	padding-top: 40px;
+}
+
+.searchresults ul {
+	/* Again, why is this needed*/
+	margin-left: -40px;
+}
+
+#result li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+#resultdate, #resultloc {
+	color: grey;
+}
+
+#resultposition {
+	color: blue;
+	font-weight: bold;
+}
+
+
+
+
+
